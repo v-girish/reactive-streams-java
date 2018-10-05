@@ -1,12 +1,9 @@
-package com.test.streams;
+package com.reactive.streams;
 
 import org.junit.Test;
 
 import java.util.List;
 import java.util.concurrent.SubmissionPublisher;
-import java.util.function.Function;
-
-import static org.junit.Assert.*;
 
 /**
  * Created by girishv.

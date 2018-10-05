@@ -12,5 +12,8 @@ repositories {
 }
 
 dependencies {
-    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile 'org.mongodb:mongodb-driver-reactivestreams:1.9.2'
+
+    testCompile 'junit:junit:4.12'
+    testCompile 'de.flapdoodle.embed:de.flapdoodle.embed.mongo:2.0.1'
 }

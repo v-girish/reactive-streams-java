@@ -1,4 +1,4 @@
-package com.test.streams;
+package com.reactive.streams;
 
 import java.util.concurrent.Flow;
 import java.util.concurrent.Flow.Subscriber;
