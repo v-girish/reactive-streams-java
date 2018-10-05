@@ -5,7 +5,7 @@ plugins {
 group 'com.reactivestreams'
 version '1.0-SNAPSHOT'
 
-sourceCompatibility = 1.8
+sourceCompatibility = 1.9
 
 repositories {
     mavenCentral()
@@ -13,6 +13,7 @@ repositories {
 
 dependencies {
     compile 'org.mongodb:mongodb-driver-reactivestreams:1.9.2'
+    compile("org.springframework.boot:spring-boot-starter-data-mongodb-reactive:2.0.5.RELEASE")
 
     testCompile 'junit:junit:4.12'
     testCompile 'de.flapdoodle.embed:de.flapdoodle.embed.mongo:2.0.1'
